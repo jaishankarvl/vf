@@ -1,0 +1,145 @@
+.plan-description-parent {
+  margin-top: 12px;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  .plan-last-text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .red-border{
+    width: 800px;
+    height: 1px;
+    background-color: #e60000;
+    margin: 50px auto auto auto;
+  }
+  .choose-plane-heading{
+    text-align: center;
+    padding-top: 40px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .plans-section-parent {
+    width: 800px;
+    background-color: #ffffff;
+    margin: 26px auto auto auto;
+    .heading-text{
+      height: 50px;
+      background-color: #e60000;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      color: #ffffff;
+      padding: 19px 0px 20px 32px;
+      .plan-header{
+        font-weight: 500;
+        font-size: 20px;
+      }
+      .plan-description{
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+    .value-text-parent{
+      background-color: rgba(196,196,196,0.34);
+      padding: 32px 31px 37px 37px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      .table-heading{
+        font-size: 17px;
+      }
+      .value-text{
+        font-weight: 500;
+        font-size: 30px;
+      }
+      .plan-values{
+        display: flex;
+        margin-top: 8px;
+        .data,.minutes,.upfront,.monthly{
+          width: 160px;
+        }
+        .minutes,.upfront{
+          margin-left: 30px;
+        }
+        .choose-plan-button-parent{
+          .choose-plan-button{
+            width: 145px;
+            height: 44px;
+            background-color: #e60000;
+            color: #ffffff;
+            font-size: 14px;
+            border-radius: 15px;
+            outline: none;
+            .white-tick{
+              width: 17px;
+              margin-left: 5px;
+              display: none;
+            }
+          }
+        }
+      }
+      .gray-border{
+        margin-top: 24px;
+        border: 0.5px solid #e60000;
+        margin-left: -15px;
+        margin-right: -15px;
+      }
+    }
+    .includes-text{
+      margin-top: 14px;
+      font-weight: 500;
+    }
+    .bottom-section-parent{
+      margin-top: 8px;
+      display: flex;
+      .benefit-text-parent{
+        width: 320px;
+        .three-month-text{
+          width: 215px;
+          text-decoration: underline;
+          cursor: pointer;
+          font-size: 14px;
+        }
+        .speed-text{
+          text-decoration: underline;
+          cursor: pointer;
+          font-weight: 500;
+          font-size: 14px;
+        }
+        .other-text{
+          font-size: 14px;
+        }
+      }
+      .entertainment-parent{
+        width: 289px;
+      }
+      .entertainment-text{
+        margin-left: -35px;
+        .top-text{
+          font-weight: bold;
+          font-size: 14px;
+          text-align: center;
+          margin-top: -24px;
+          color: #000000;
+          font-weight: 500;
+        }
+        .images-parent{
+          margin-top: 25px;
+          .prime-image,.sky-image,.now-image,.spotify-image{
+            width: 45px;
+          }
+          .spotify-image,.sky-image,.now-image{
+            margin-left: 25px;
+          }
+        }
+      }
+      .see-plan-details{
+        color: #e60000;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 14px;
+        margin: 12px 0px 0px 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.App {
+  text-align: left;
+  margin: -16px 0px 0px 0px;
+  padding: 16px 0px 0px 0px;
+  .switch-section{
+    padding-left: 77px;
+    padding-top: 22px;
+    height: 40px;
+    display: flex;
+    .all-phones-section{
+      display: flex;
+      width: 150px;
+    }
+    .switch-section-parent{
+      margin-left: 900px;
+      //padding-left: 30px;
+    }
+    .all-phones{
+      cursor: pointer;
+      text-decoration: underline;
+      font-size: 14px;
+      margin-top: 10px;
+      margin-left: 28px;
+    }
+    .switch-button-text{
+      float: right;
+      margin-top: 8px;
+      padding-right: 8px;
+      font-size: 14px;
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+      float: right;
+      margin-right: 75px;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      width: 37px;
+      height: 19px;
+      position: absolute;
+      cursor: pointer;
+      top: 8px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+      &:before{
+        position: absolute;
+        content: "";
+        height: 14px;
+        width: 14px;
+        left: 4px;
+        bottom: 2.6px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+    }
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+    input:checked + .slider:before {
+      -webkit-transform: translateX(16px);
+      -ms-transform: translateX(16px);
+      transform: translateX(16px);
+    }
+    .slider.round {
+      border-radius: 34px;
+      &:before{
+        border-radius: 50%;
+      }
+    }
+  }
+  .sale-image-parent{
+    padding-left: 77px;
+    margin-top: 14px;
+    .sale-image{
+      width: 1248px;
+    }
+  }
+}

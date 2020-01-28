@@ -1,0 +1,73 @@
+.header{
+ height: 68px;
+  display: flex;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+  .voda-logo{
+    width: 43px;
+    padding-left: 46px;
+  }
+  .tabs-parent{
+    background-color: #ffffff;
+    margin-left: 34px;
+    .tabs{
+      border: none;
+      background-color: #ffffff;
+      height: 66px;
+      color: #000000;
+      font-size: 18px;
+      font-weight: 500;
+      outline: none;
+      padding-left: 16px;
+      padding-right: 16px;
+      &:hover {
+        border-bottom: 3px solid red;
+        cursor: pointer;
+      }
+    }
+  }
+  .icons-parent {
+    display: inline;
+    .search-button {
+      border: none;
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 21px;
+      outline: none;
+      height: 66px;
+      padding-left: 16px;
+      padding-right: 16px;
+      &:hover {
+        border-bottom: 3px solid red;
+        cursor: pointer;
+      }
+      .search-image{
+        mix-blend-mode: hard-light;
+        height: 24px;
+      }
+    }
+  }
+  .user-parent{
+    display: inline;
+    .user-button{
+      border: none;
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 21px;
+      outline: none;
+      height: 66px;
+      padding-left: 16px;
+      padding-right: 16px;
+      &:hover {
+        cursor: pointer;
+        border-bottom: 3px solid red;
+      }
+      .user-image{
+        mix-blend-mode: hard-light;
+        height: 24px;
+      }
+    }
+  }
+  .right-icons{
+    margin-left: 485px;
+  }
+}

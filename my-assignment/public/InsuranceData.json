@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "headerText": "Business Damage Insurance with Rapid",
+    "insuranceDescription": "Insure your phone against accidental damage with added 4 hour replacement service.",
+    "insuranceValue": "£6"
+  },
+  {
+    "id": 2,
+    "headerText": "Business Standard Insurance with Rapid",
+    "insuranceDescription": "Insure your phone against loss, theft or accidental damage with added 4 hour replacement service.",
+    "insuranceValue": "£10"
+
+  },
+  {
+    "id": 3,
+    "headerText": "Business Damage Insurance ",
+    "insuranceDescription": "Insure your phone against accidental damage.",
+    "insuranceValue": "£5"
+  },
+  {
+    "id": 4,
+    "headerText": "Business Standard Insurance ",
+    "insuranceDescription": "Insure your phone against loss, theft or accidental damage.",
+    "insuranceValue": "£9"
+  }
+
+]

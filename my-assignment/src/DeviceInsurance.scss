@@ -1,0 +1,75 @@
+.device-insurance-parent {
+  margin-top: 12px;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  .red-border{
+    width: 800px;
+    height: 1px;
+    background-color: #e60000;
+    margin: 50px auto auto auto;
+  }
+  .protect-device-heading{
+    text-align: center;
+    padding-top: 40px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .protect-device-sub-heading{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 14px;
+  }
+  .insurance-section-parent {
+    width: 800px;
+    border-radius: 15px;
+    background-color: rgba(196,196,196,0.34);
+    margin: 28px auto auto auto;
+    .top-section-parent{
+      display: flex;
+      .heading{
+        padding: 29px 0px 0px 34px;
+        font-size: 18px;
+        font-weight: 500;
+        width: 600px;
+      }
+      .insurance-value-parent{
+        margin: 24px 0px 0px 0px;
+        .insurance-value{
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+    }
+    .middle-section-parent{
+      display: flex;
+      margin-top: 14px;
+      padding-left: 34px;
+      .insurance-description{
+        font-size: 12px;
+        width: 600px;
+      }
+      .insurance-cart-button{
+        .insurance-add-to-cart{
+          width: 107px;
+          outline: none;
+          height: 36px;
+          border-radius: 9px;
+          background-color: black;
+          color: white;
+          font-size: 13px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .product-details{
+    color: #e60000;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-left: 34px;
+    margin-top: 5px;
+    padding-bottom: 40px;
+  }
+}

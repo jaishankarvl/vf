@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "headerText": "Business support",
+    "addOnsDescription": "HR and Legal support including legal document templates and a helpline for\nspeaking with qualified HR experts and local lawyers.",
+    "addOnsValue": "£4.80"
+  },
+  {
+    "id": 2,
+    "headerText": "Device support",
+    "addOnsDescription": "100GB of secure cloud storage plus online tech support 7 days a week,\n8 am to 9 pm ( from 9 am on weekends )",
+    "addOnsValue": "£2.40"
+
+  },
+  {
+    "id": 3,
+    "headerText": "Prime contact",
+    "addOnsDescription": "Priority access to a UK based team of expert advisers, 7 days a week, 8 am to 9 pm. ",
+    "addOnsValue": "£3.60"
+  },
+  {
+    "id": 4,
+    "headerText": "Vodafone International saver 100",
+    "addOnsDescription": "If you’ve got friends and family who live abroad, call them from the UK without worrying about the cost.\nFor just    3 a month, you’ll get 100 minutes to call landlines and mobiles in 100 selected destinations.",
+    "addOnsValue": "£3"
+  },
+  {
+    "id": 5,
+    "headerText": "Vodafone International saver 500",
+    "addOnsDescription": "Keep in touch with loved ones around the world using Vodafone International saver 500. For just    7.50 \na month, you’ll get 500 minutes to make calls from the UK to landlines and mobiles in 100 hundred \nselected destinations.",
+    "addOnsValue": "£3"
+  }
+
+]

@@ -1,0 +1,141 @@
+.addOns-parent {
+  margin-top: 12px;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  .red-border{
+    width: 800px;
+    height: 1px;
+    background-color: #e60000;
+    margin: 50px auto auto auto;
+  }
+  .addOns-heading{
+    text-align: center;
+    padding-top: 40px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .addOns-section-parent {
+    width: 800px;
+    border-radius: 15px;
+    background-color: rgba(196,196,196,0.34);
+    margin: 28px auto auto auto;
+    .top-section-parent{
+      display: flex;
+      .heading{
+        padding: 29px 0px 0px 34px;
+        font-size: 18px;
+        font-weight: 500;
+        width: 520px;
+      }
+      .addOns-value-parent{
+        margin: 24px 0px 0px 40px;
+        .addOns-value{
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+    }
+    .addOns-middle-section-parent{
+      display: flex;
+      margin-top: 14px;
+      padding-left: 34px;
+      padding-bottom: 40px;
+      .addOns-description{
+        font-size: 12px;
+        width: 487px;
+      }
+      .addOns-cart-button{
+        margin-left: 75px;
+        .addOns-add-to-cart{
+          width: 107px;
+          height: 36px;
+          border-radius: 9px;
+          background-color: black;
+          color: white;
+          font-size: 13px;
+          font-weight: 600;
+          outline: none;
+        }
+      }
+    }
+  }
+  .proceed-button-parent{
+    text-align: center;
+    margin-top: 34px;
+    .proceed-button{
+      width: 150px;
+      height: 40px;
+      border-radius: 15px;
+      color: white;
+      background-color: #e60000;
+      outline: none;
+    }
+  }
+  .add-to-cart-section{
+    display: flex;
+    padding-left: 117px;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+    .phone-section,.plan-section,.addons-section{
+      color: #e60000;
+      text-decoration: underline;
+      cursor: pointer;
+      display: flex;
+      height: 34px;
+      /* width: 84px; */
+      padding-top: 15px;
+      border-right: 1px solid #e60000;
+      /* text-align: center; */
+      padding-left: 84px;
+      padding-right: 84px;
+      font-size: 14px;
+      .gray-tick{
+        margin: -8px 0px 0px 8px;
+
+      }
+    }
+    .upfront-section,.monthly-section{
+      color: #e60000;
+      height: 34px;
+      display: block;
+      padding-left: 42px;
+      .monthly-text{
+        font-size: 12px;
+      }
+      .monthly-value{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .vat-text{
+        font-size: 14px;
+      }
+
+    }
+    .monthly-section{
+      padding-right: 42px;
+      border-right: 1px solid #e60000;
+      height: 50px;
+    }
+    .cart-section{
+      padding-left: 84px;
+      padding-right: 84px;
+      .cart-button{
+        width: 140px;
+        height: 44px;
+        border-radius: 15px;
+        background-color: #e60000;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        outline: none;
+      }
+    }
+  }
+}

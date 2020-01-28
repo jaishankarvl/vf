@@ -1,0 +1,162 @@
+.main-section-parent{
+  display: flex;
+  margin-left: 95px;
+  margin-top: 30px;
+  .thumbnail-parent{
+    padding-top: 130px;
+    .iphone-image-thumbnail{
+      width: 44px;
+      padding: 5px 5px 5px 5px;
+      border-radius: 6px;
+    }
+  }
+  .images-parent{
+    min-width: 480px;
+    border-right: 1px solid #e60000;
+    .iphone-image{
+      width: 235px;
+      margin-left: 90px;
+      height: 460px;
+    }
+    .iphone-image-side-view{
+      width: 460px;
+    }
+    .iphone-image-front-view{
+      width: 523px;
+      margin-left: 40px;
+      height: 523px;
+    }
+    .selected-color{
+      width: 35px;
+      height: 35px;
+      background-color: #b8092c;
+      border: 1px solid gray;
+      margin-top: 8px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      .color-dropdown{
+        margin-left: 35px;
+        height: 37px;
+        width: 140px;
+        outline: none;
+        border-color: gray;
+        border-radius: 0;
+        margin-top: -1px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-position: right 50%;
+        background-repeat: no-repeat;
+        background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1"><path d="M4 8L0 4h8z"/></svg>');
+        padding: 8px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+    .storage-text,.colour-text{
+      font-size: 14px;
+    }
+    .selected-storage{
+      .storage-dropdown{
+        height: 37px;
+        width: 140px;
+        outline: none;
+        border-color: gray;
+        border-radius: 0;
+        margin-top: 8px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-position: right 50%;
+        background-repeat: no-repeat;
+        background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1"><path d="M4 8L0 4h8z"/></svg>');
+        padding: 8px;
+        border-radius: 10px;
+      }
+    }
+    .dropdown-parents{
+      display: flex;
+      .storage-parent{
+        margin: 0px 0px 0px 120px;
+      }
+    }
+  }
+  .middle-section-parent{
+    width: 345px;
+  }
+  .right-section-parent{
+    margin-left: 130px;
+    .top-text{
+      font-size: 30px;
+    }
+    .description-text{
+      width: 400px;
+      margin: 8px 0px 0px 0px;
+      font-size: 18px;
+      line-height: 1.24;
+      letter-spacing: normal;
+      color: rgba(0, 0, 0, 0.58);
+    }
+    .learn-link{
+      margin-top: 12px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .gray-section{
+      margin-top: 32px;
+      background-color: #ebebeb;
+      padding: 9px;
+      text-align: center;
+      width: 326px;
+      .price-text{
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        .bold-text{
+          font-weight: 500;
+        }
+      }
+    }
+    .bottom-text{
+      margin-top: 55px;
+      display: flex;
+      width: 350px;
+      .tick-text{
+        width: 305px;
+        border-right: 1px solid #ebebeb;
+      }
+      .green-tick{
+        width: 33px;
+        margin-left: 13px;
+      }
+      .vertical-align{
+        margin-top: 28px;
+      }
+      .store-text{
+        width: 305px;
+        border-right: 1px solid #ebebeb;
+      }
+    }
+    .plan-button-parent{
+      margin-top: 127px;
+      .plan-button{
+        width: 188px;
+        height: 44px;
+        color: #ffffff;
+        background-color: #e60000;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        border-radius: 15px;
+        .white-tick{
+          width: 19px;
+          height: 17.3px;
+          padding-left: 6px;
+        }
+      }
+    }
+  }
+
+}
